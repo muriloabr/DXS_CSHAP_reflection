@@ -2,9 +2,12 @@
 using System.Text;
 
 /*
-PARA POR EM PRÁTICA O CONCEITO DE REFLECTION VAMOS:
-CRIAR DUAS CLASSES DE CADASTRO DE CLIENTES, PESSOA FISICA E JURIDICA, TEMOS SOMENTE O CAMPO DE DOCUMENTAÇÃO DE DIFERENTE ENTRE AS CLASSES.
-VAMOS SUBISTITUIR TODAS AS INFORMAÇÕES DA EMPRESA REMOVIDA COM AS INFORMAÇÕES DA PESSOA FISICA QUE SÃO COMPATIVEIS ENTRE ELAS.
+PARA POR EM PRÁTICA O CONCEITO DE SYSTEM.REFLECTION VAMOS:
+CRIAR DUAS CLASSES DE CADASTRO DE CLIENTES, PESSOA FISICA E JURIDICA,
+TEMOS SOMENTE O CAMPO DE DOCUMENTAÇÃO DE DIFERENTE ENTRE AS CLASSES.
+VAMOS SUBISTITUIR TODAS AS INFORMAÇÕES DA EMPRESA REMOVIDA
+COM AS INFORMAÇÕES DA PESSOA FISICA QUE SÃO COMPATIVEIS ENTRE ELAS.
+E MOSTRAR OS RESULTADOS 
  */
 var pessoaA = new Pessoa_fisica {  //pessoa fisica criada e carregada
     id = 12,
@@ -28,14 +31,15 @@ foreach (var propriedadeA in propriedadesA) {  //percorremos o array com as prop
     }
 }
 
-string log(object objetoQualquerRecebido) {  //METODO DE LOG DAS INFORMAÇÕES USANDO REFLECTION
+string log(object objetoQualquerRecebido) {  //METODO DE LOG DAS INFORMAÇÕES USANDO O CONCEITO DO SYSTEM.REFLECTION
     var tipo = objetoQualquerRecebido.GetType();
     var construirLog = new StringBuilder();
     construirLog.AppendLine($":::Data do log: {DateTime.Now} | {objetoQualquerRecebido.GetType()}:::");  //cadeia de caracteres interpolada
-    foreach (var propriedadeAtual in tipo.GetProperties()) {
-        construirLog.AppendLine($"{propriedadeAtual.Name} : {propriedadeAtual.GetValue(objetoQualquerRecebido)}");  //cadeia de caracteres interpolada
+    foreach (var propriedadeAtual in tipo.GetProperties()) {  //SYSTEM.REFLECTION pegando as propriedades do tipo do objeto recebido
+        construirLog.AppendLine($"{propriedadeAtual.Name} : {propriedadeAtual.GetValue(objetoQualquerRecebido)}");
+        //cadeia de caracteres interpolada + SYSTEM.REFLECTION lendo o nome da propriedade contido na classe do objeto e lendo o valor da mesma propriedade dentro do objeto recebido  
     }
-    return construirLog.ToString();
+    return construirLog.ToString(); //retornando o log preenchido
 }   
 
 //RESULTADO
