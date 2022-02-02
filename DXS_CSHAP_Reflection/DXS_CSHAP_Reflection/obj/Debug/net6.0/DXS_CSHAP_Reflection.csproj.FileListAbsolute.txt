@@ -1,0 +1,15 @@
+C:\Users\Administrador\Desktop\MyApps\DXS_CSHAP_Reflection\DXS_CSHAP_Reflection\DXS_CSHAP_Reflection\bin\Debug\net6.0\DXS_CSHAP_Reflection.exe
+C:\Users\Administrador\Desktop\MyApps\DXS_CSHAP_Reflection\DXS_CSHAP_Reflection\DXS_CSHAP_Reflection\bin\Debug\net6.0\DXS_CSHAP_Reflection.deps.json
+C:\Users\Administrador\Desktop\MyApps\DXS_CSHAP_Reflection\DXS_CSHAP_Reflection\DXS_CSHAP_Reflection\bin\Debug\net6.0\DXS_CSHAP_Reflection.runtimeconfig.json
+C:\Users\Administrador\Desktop\MyApps\DXS_CSHAP_Reflection\DXS_CSHAP_Reflection\DXS_CSHAP_Reflection\bin\Debug\net6.0\DXS_CSHAP_Reflection.dll
+C:\Users\Administrador\Desktop\MyApps\DXS_CSHAP_Reflection\DXS_CSHAP_Reflection\DXS_CSHAP_Reflection\bin\Debug\net6.0\ref\DXS_CSHAP_Reflection.dll
+C:\Users\Administrador\Desktop\MyApps\DXS_CSHAP_Reflection\DXS_CSHAP_Reflection\DXS_CSHAP_Reflection\bin\Debug\net6.0\DXS_CSHAP_Reflection.pdb
+C:\Users\Administrador\Desktop\MyApps\DXS_CSHAP_Reflection\DXS_CSHAP_Reflection\DXS_CSHAP_Reflection\obj\Debug\net6.0\DXS_CSHAP_Reflection.csproj.AssemblyReference.cache
+C:\Users\Administrador\Desktop\MyApps\DXS_CSHAP_Reflection\DXS_CSHAP_Reflection\DXS_CSHAP_Reflection\obj\Debug\net6.0\DXS_CSHAP_Reflection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrador\Desktop\MyApps\DXS_CSHAP_Reflection\DXS_CSHAP_Reflection\DXS_CSHAP_Reflection\obj\Debug\net6.0\DXS_CSHAP_Reflection.AssemblyInfoInputs.cache
+C:\Users\Administrador\Desktop\MyApps\DXS_CSHAP_Reflection\DXS_CSHAP_Reflection\DXS_CSHAP_Reflection\obj\Debug\net6.0\DXS_CSHAP_Reflection.AssemblyInfo.cs
+C:\Users\Administrador\Desktop\MyApps\DXS_CSHAP_Reflection\DXS_CSHAP_Reflection\DXS_CSHAP_Reflection\obj\Debug\net6.0\DXS_CSHAP_Reflection.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Desktop\MyApps\DXS_CSHAP_Reflection\DXS_CSHAP_Reflection\DXS_CSHAP_Reflection\obj\Debug\net6.0\DXS_CSHAP_Reflection.dll
+C:\Users\Administrador\Desktop\MyApps\DXS_CSHAP_Reflection\DXS_CSHAP_Reflection\DXS_CSHAP_Reflection\obj\Debug\net6.0\ref\DXS_CSHAP_Reflection.dll
+C:\Users\Administrador\Desktop\MyApps\DXS_CSHAP_Reflection\DXS_CSHAP_Reflection\DXS_CSHAP_Reflection\obj\Debug\net6.0\DXS_CSHAP_Reflection.pdb
+C:\Users\Administrador\Desktop\MyApps\DXS_CSHAP_Reflection\DXS_CSHAP_Reflection\DXS_CSHAP_Reflection\obj\Debug\net6.0\DXS_CSHAP_Reflection.genruntimeconfig.cache
