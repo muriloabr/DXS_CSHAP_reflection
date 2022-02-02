@@ -31,9 +31,9 @@ foreach (var propriedadeA in propriedadesA) {  //percorremos o array com as prop
 string log(object objetoQualquerRecebido) {  //METODO DE LOG DAS INFORMAÇÕES USANDO REFLECTION
     var tipo = objetoQualquerRecebido.GetType();
     var construirLog = new StringBuilder();
-    construirLog.AppendLine(":::Data do log: " + DateTime.Now + " | " + objetoQualquerRecebido.GetType() + ":::");
-    foreach(var propriedadeAtual in tipo.GetProperties()) {
-        construirLog.AppendLine(propriedadeAtual.Name + " : " + propriedadeAtual.GetValue(objetoQualquerRecebido));
+    construirLog.AppendLine($":::Data do log: {DateTime.Now} | {objetoQualquerRecebido.GetType()}:::");  //cadeia de caracteres interpolada
+    foreach (var propriedadeAtual in tipo.GetProperties()) {
+        construirLog.AppendLine($"{propriedadeAtual.Name} : {propriedadeAtual.GetValue(objetoQualquerRecebido)}");  //cadeia de caracteres interpolada
     }
     return construirLog.ToString();
 }   
