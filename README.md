@@ -4,7 +4,7 @@
 Aplicação e estudo do conceito de Reflection em linguagem C#
 
 - Estruturas, conceitos, funções;
-- ✨Exemplos de aplicação com este conceito, comentados.
+- ✨Exemplos de aplicação com este conceito + comentarios.
 
 ### Tela de resultado final:<br>![imagem da aplicação](https://dataxstudios.com.br/assets/images/github/csharp_reflection_1.PNG)
 Fique por dentro deste repositório com atualizações sempre que possível!<br>[CSHARP] #csharp
