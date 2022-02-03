@@ -5,9 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace DXS_CSHAP_Reflection {
-    internal class Pessoa_juridica {
-        public int id { get; set; }
-        public string nome { get; set; }
-        public string cnpj { get; set; }
+    internal class Pessoa_juridica : Pessoa {      
+        public string Cnpj { get; set; }
     }
 }

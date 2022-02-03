@@ -5,8 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace DXS_CSHAP_Reflection {
-    internal class Pessoa_fisica : Pessoa {
-       
-    public string Cpf { get; set; }
+    internal interface LimparObjeto {
+        public void Limpar();
     }
 }
